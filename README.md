@@ -1,11 +1,21 @@
+In dieser Aufgabe werden Strings verwendet. Sie können Strings wie folgt miteinander vergleichen:
+
+```java
+String s1 = "Blabla";
+if(s1.equals("Blabla")) {
+  System.out.println("In dem String steht Blabla.")
+}
+```
+
 # Aufgabe 1
 Schreiben Sie eine Methode `public static String printGreeting(String name)`, die eine persönliche Begrüßung für einen gegebenen Namen ausgibt und auf die Konsole printed.
 
 Beispiel: Beim Aufruf `printGreeting("Tom")`, gibt die Methode "Hallo Tom" zurück.
+
 # Aufgabe 2
 Schreiben Sie eine Methode `public static float calculate(int numOne, int numTwo, String operation)`, die zwei Zahlen nimmt, die übergebene Rechenoperation durchführt und der Ergebnis zurückgibt. Außerdem soll die Methode die Rechnung printen.
 
-Beispiel: bei einem Aufruf von `calculate(1, 1, sum)` wird auf die Konsole `1 + 1 = 2.0` geschrieben.
+Beispiel: bei einem Aufruf von `calculate(1, 1, "sum")` wird auf die Konsole `1 + 1 = 2.0` geschrieben.
 
 Gütige Rechenoperationen sind: sum, difference, product, quotient. Wenn eine andere Rechenoperation übergeben wird, soll das Programm auf die Konsole printen: "Unbekannte Operation" und -1 zurückgeben.
 Wenn durch 0 geteilt wird, wird auf die Konsole geschrieben "Teilen durch 0 nicht möglich" und auch -1 zurückgegeben.
